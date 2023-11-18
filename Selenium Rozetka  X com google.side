@@ -1,0 +1,329 @@
+{
+  "id": "123a554b-6de6-4e9d-8a66-081440eacec7",
+  "version": "2.0",
+  "name": "Selenium Rozetka",
+  "url": "https://www.x-kom.pl",
+  "tests": [{
+    "id": "1e3314ef-37c9-4d4a-9593-1f319bac69cd",
+    "name": "Dodanie do kosza",
+    "commands": [{
+      "id": "7522b865-89b9-410e-8872-592b8a47cb32",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8da2cc99-4222-4712-a0b9-70962662ff68",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bb97c6e-331b-494c-acf2-9297cda0b330",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d42b4f54-2205-40ed-b762-85b23ad6c94c",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "кобзар"
+    }, {
+      "id": "0ad65cd9-a959-4268-806b-f3aeb5b7d8cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_color_green",
+      "targets": [
+        ["css=.button_color_green", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Найти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a2b84a6-bf76-401c-bc61-ebd02e8130b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(5) .goods-tile__title",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(5) .goods-tile__title", "css:finder"],
+        ["xpath=//li[5]/rz-catalog-tile/app-goods-tile-default/div/div[2]/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Кобзар. Вибрана поезія - Т. Г. Шевченко (9789669829962)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6efeb3a2-9d3f-476d-8a14-9b88d9769194",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buy-button__label",
+      "targets": [
+        ["css=.buy-button__label", "css:finder"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/div[3]/rz-product-buy-btn/app-buy-button/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51a1db50-493e-4565-b25b-7e150b289e95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_size_large > span",
+      "targets": [
+        ["css=.button_size_large > span", "css:finder"],
+        ["xpath=//rz-checkout-button/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Оформить заказ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dd80686-976f-461f-b86b-3f8347028696",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b638fdd3-9aee-4146-a650-940584b14a1b",
+    "name": "X kom",
+    "commands": [{
+      "id": "3964cb72-c1ff-41e4-91a6-22ab12671ff7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56804119-3a06-4d0c-9fdb-84d8c679f2ca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62b3d430-b2ef-4279-834f-773c8d94cc33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-suk8z4-0",
+      "targets": [
+        ["css=.sc-suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8329eaab-8a7a-45d9-83c7-d6af679ca1d2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-suk8z4-0",
+      "targets": [
+        ["css=.sc-suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='samsung s 23']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "samsung s 23"
+    }, {
+      "id": "65f89511-b729-4d17-b323-acadd298edc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1p0xkzn-3 > svg",
+      "targets": [
+        ["css=.sc-1p0xkzn-3 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d205f8a-1429-4555-b9ed-fa35ccc07c4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1s1zksu-0:nth-child(1) .sc-16zrtke-0 > span",
+      "targets": [
+        ["css=.sc-1s1zksu-0:nth-child(1) .sc-16zrtke-0 > span", "css:finder"],
+        ["xpath=//div[@id='listing-container']/div/div/div[2]/div[2]/div/a/h3/span", "xpath:idRelative"],
+        ["xpath=//a/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Samsung Galaxy S23 Ultra 12/512GB Beige')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbb65739-d37f-4193-ad99-73ae29a2489c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1hdxfw1-1",
+      "targets": [
+        ["css=.sc-1hdxfw1-1", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/div[3]/div[2]/div[2]/div/div[2]/div[2]/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15b8ee21-3325-4ebf-ba0a-09c03ff538d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iDhioB > .sc-fzoLsD",
+      "targets": [
+        ["css=.iDhioB > .sc-fzoLsD", "css:finder"],
+        ["xpath=//div[@id='react-portals']/div[14]/div/div/div/div[3]/button[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "846aa41a-5b54-4217-a9a1-bc0d521c3efc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iDhioB > .sc-fzoLsD",
+      "targets": [
+        ["css=.iDhioB > .sc-fzoLsD", "css:finder"],
+        ["xpath=//div[@id='react-portals']/div[14]/div/div/div/div[3]/button[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9421f245-31bd-409d-88db-d7d62e929912",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "57eeb2ba-8b8b-42e5-aa3b-0da5ee0fd769",
+    "name": "x com 2",
+    "commands": [{
+      "id": "c1919e5f-7f88-4c82-baf5-a20d5e3af12d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.x-kom.pl",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1920041-6776-404d-922b-d22d196425ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3d1c9e9-2e38-4447-90bb-82a2f3af3dac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-suk8z4-0",
+      "targets": [
+        ["css=.sc-suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bccdbcd-2a6f-45aa-8325-8d439a694b0e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-suk8z4-0",
+      "targets": [
+        ["css=.sc-suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='samsung s23']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "samsung s23"
+    }, {
+      "id": "962f656f-95fe-43c3-8d9e-99e783fe5058",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1p0xkzn-3 > svg",
+      "targets": [
+        ["css=.sc-1p0xkzn-3 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e11650f-a115-4ff8-84b4-c7b7989b2f0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1s1zksu-0:nth-child(3) .sc-16zrtke-0 > span",
+      "targets": [
+        ["css=.sc-1s1zksu-0:nth-child(3) .sc-16zrtke-0 > span", "css:finder"],
+        ["xpath=//div[@id='listing-container']/div[3]/div/div[2]/div[2]/div/a/h3/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div[2]/div/a/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Samsung Galaxy S23+ 8/512GB Beige')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de71285d-9caf-41f1-b061-800d2bd836f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1hdxfw1-1",
+      "targets": [
+        ["css=.sc-1hdxfw1-1", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2f615cd-c4c3-4e45-9da1-3381f2b90692",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dAZHqx > .sc-fznKkj:nth-child(1)",
+      "targets": [
+        ["css=.dAZHqx > .sc-fznKkj:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='react-portals']/div[14]/div/div/div/div[3]/button[2]/div/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a50770bf-1b9c-4afd-97a7-3f161eac1412",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dAZHqx > .sc-fznKkj:nth-child(1)",
+      "targets": [
+        ["css=.dAZHqx > .sc-fznKkj:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='react-portals']/div[14]/div/div/div/div[3]/button[2]/div/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "589f4e13-4938-4271-89e3-2b9c160d64b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-d72h2o-4",
+      "targets": [
+        ["css=.sc-d72h2o-4", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div[2]/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Przejdź do dostawy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98c08d27-561d-413c-836b-4ed9e0a7b000",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6012ecb8-b57d-4c5a-9a7e-f9ad9c4fd671",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://rozetka.com.ua/", "https://www.x-kom.pl/"],
+  "plugins": []
+}

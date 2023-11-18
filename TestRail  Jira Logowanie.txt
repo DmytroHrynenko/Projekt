@@ -1,0 +1,13 @@
+TestRail
+https://testraildmhr19880717testdmytro.testrail.io/
+Email Address 
+dmytrohrynenko17071988@gmail.com
+Password
+Qwer1234!
+
+Jira
+https://dmihr.atlassian.net/
+Email Address 
+dmytrohrynenko17071988@gmail.com
+Password
+Qwer1234!QA1S2
