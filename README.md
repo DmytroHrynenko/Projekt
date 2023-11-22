@@ -1,6 +1,3 @@
-Projekt po zakończeniu intensywnego kursu tester oprogramowania w Software Development Academy.
-Projekt obejmuje testowanie według wymagań strony z formularzem rejestracyjnym, tworzenie przypadków testowych i zgłaszania znalezionych błędów.
-W plikach exel są wymagania, przykladowe zestawy testowe,scenariusze testowe,oraz przypadki testowe.
-Są dane do logowania w Jirze oraz Test Railu.
-Są testy automatyczne wykonane za pomocą Selinium IDE
-Także sa przykłady praktyki z Postmanem: wysyłanie zapytań typu: Get, Post, Put, Del.
+Projekt został zrealizowany po zakończeniu intensywnego kursu Tester Oprogramowania w Software Development Academy. Projekt obejmuje testowanie według wymagań strony z formularzem rejestracyjnym, tworzenie przypadków testowych i zgłaszanie znalezionych błędów. 
+W plikach w formacie .xlsx są wymagania, przykładowe zestawy, scenariusze oraz przypadki testowe. Dodatkowo przedstawione zostały dane do logowania w Jirze oraz Test Railu. 
+Testy automatyczne zostały wykonane za pomocą Selinium IDE. Wykorzystany został również przeze mnie Postman, dzięki któremu przesyłałam zapytania typu: Get, Post, Put, Del.
